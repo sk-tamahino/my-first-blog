@@ -5,7 +5,7 @@ __pycache__
 
 # Env
 .env
-myenv/
+myvenv/
 venv/
 
 # Database
@@ -13,6 +13,12 @@ db.sqlite3
 
 # Static folder at project root
 /static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
 
 # Windows
 Thumbs.db*
@@ -22,5 +28,5 @@ $RECYCLE.BIN/
 
 # Visual Studio
 .vscode/
-.history
+.history/
 *.code-workspace
